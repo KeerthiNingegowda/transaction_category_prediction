@@ -33,5 +33,5 @@ model is trained only on one feature. So not applicable
 - Models and model code can be packaged into Docker
 - Consider the management of end to end environment handling, pipeline handling etc., usinh github actions
 - Write applicable tests  i.e. User Acceptance testing, smoke testing, regression testing when trying to deploy model to production
-- Create API endpoints depending on what service you are offering probably using Flask
+- Create API endpoints depending on what service you are offering probably using Flask. Consider microservices pattern as much as possible.
 - Implement Post Implementation Verification , if applicable
