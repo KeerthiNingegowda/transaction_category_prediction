@@ -7,7 +7,7 @@ uv sync
 source .venv/bin/activate
 ```
 
-Note:- I ran num_trials=5 in train function. Change it if you want
+Note:- I ran n_trials=5 in train function. Change it if you want
 
 ### To run the project 
 ```python main.py```
