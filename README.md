@@ -1,22 +1,24 @@
 # transaction_category_prediction
 Predict the category of given a transaction description
 
-# To activate the virtual environment - Assuming uv is already installed
+### To activate the virtual environment - Assuming uv is already installed
+```
 uv sync 
 source .venv/bin/activate
+```
 
 Note:- I ran num_trials=5 in train function. Change it if you want
 
-# To run the project 
-python main.py
+### To run the project 
+```python main.py```
 
-# For research, EDA, design choices, assumptioons and future enchecckout 
-<link>
+### For research, EDA, design choices, assumptioons and future enhancements checkout 
+[Design choices](https://github.com/KeerthiNingegowda/transaction_category_prediction/blob/main/design-choices.pdf)
 
-# Feature importance
+### Feature importance
 model is trained only on one feature. So not applicable 
 
-# Deployment in real world consideration (summary) This is wildly problem dependent
+### Deployment in real world consideration (summary) This is wildly problem dependent
 1) Data pipeline hardening:- 
 - Having agreement on frequency of data pulling from databases and the format of storage. For eg:- parquet is more efficient than csv especially fro production
 - Data versioning, if applicable
